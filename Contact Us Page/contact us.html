@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="contact us.css">
+</head>
+<body>
+    <!-- Start contact us -->
+    <div class="contact-us-backgroud">
+        <img src="../images/coffee.png" width="100%" alt="">
+    </div>
+    <div class="container">
+        <div class="contact-us">
+            <div class="contact-us-title">
+                <h1>CONTACT US</h1>
+            </div>
+        </div>
+        <form action="">
+            <div>
+                <input class="name-input"  id="name" type = "text" name ="name" placeholder="name"/>
+                <input class="phone-input" id="phone" type = "text" name ="phone" placeholder="phone"/>
+                <input class="email-input" id="email" type = "email" name ="email" placeholder="email"/>
+            </div>
+            <textarea name="masseage" id="masseage" cols="85" rows="10" placeholder="masseage"></textarea>
+            <input type="submit" id="send" value="send" onclick="ContactUs_chkForm(); return false;">
+        </form>
+    </div>
+    <!-- End contact us -->
+    <script src="../main.js"></script>
+</body>
+</html>

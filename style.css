@@ -1,0 +1,190 @@
+/* استدعاء خط من جوجل */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* Start Global Rules */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fd;
+    font-family: 'Playfair Display', serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End Global Rules */
+
+/* Start Navbar */
+.header {
+    padding: 1rem 0;
+    height: 60px;
+    margin-top: 8px;
+}
+
+.nav__list li {
+    float: left;
+    width: 7%;
+}
+
+.nav__item {
+    margin: 0 8px;
+}
+
+.nav__link {
+    padding: 10px;
+    color: #eeee;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.signin-btn {
+    color: white;
+}
+
+.signup-btn {
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    padding: 8px;
+}
+
+/* End Navbar */
+
+
+/* Start Landing Section */
+.landing {
+    position: relative;
+}
+
+.landing-background {
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    background-image: url(images/coffee_image.png);
+    background-repeat: no-repeat;
+    z-index: -9999;
+}
+
+.landing-content {
+    height: 420px;
+    padding-top: 100px;
+}
+
+
+.landing-content h1 {
+    font-family: 'Clicker Script', sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.landing-content p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 527px;
+}
+
+.order-btn {
+    width: 134px;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #1E1E1E;
+    background: #F9C06A;
+}
+
+/* End Landing Section */
+
+/* Start Discover Coffee Section */
+.discover-coffee {
+    position: relative;
+    margin-top: 300px;
+}
+
+.discover-coffee-background {
+    position: absolute;
+    bottom: -550px;
+}
+
+.discover-coffee-content {
+    position: relative;
+}
+
+.coffee-img {
+    position: absolute;
+    right: 0;
+}
+
+.discover-coffee-content div {
+    float: left;
+}
+
+.discover-coffee-content h1,
+.discover-coffee-content p {
+    width: 585px;
+}
+
+.discover-coffee-content h1 {
+    font-weight: 700;
+    font-size: 54px;
+    color: #603809;
+}
+
+.discover-coffee-content p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+}
+
+/* End Discover Coffee Section */
+
+/* Start footer section */
+.footer {
+    margin-top: 600px;
+    position: absolute;
+    background-color: #442808;
+    width: 100%;
+    height: 250px;
+    padding-top: 50px;
+}
+
+.footer h1 {
+    color: white;
+}
+
+.footer ul li a {
+    color: white;
+}
+
+.footer .footer-logo p {
+    width: 330px;
+    color: white;
+}
+
+.footer-content {
+    width: 100%;
+}
+
+.footer-content ul {
+    margin-left: 50px;
+}
+
+.footer-content div,
+.footer-content ul {
+    float: left;
+}
+
+/* End footer section */

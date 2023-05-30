@@ -1,0 +1,80 @@
+/* استدعاء خط من جوجل */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* Start Global Rules */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9C06A6B;
+    font-family: 'Playfair Display', serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End Global Rules */
+
+/* Start contact us  */
+.contact-us{
+    margin-top: 100px;
+}
+.contact-us-title h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #603809;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+}
+
+textarea {
+    margin-top: 8px;
+}
+
+#send {
+    width: 70px;
+    height: 30px;
+    background-color: #F9C06A;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-top: 7px;
+}
+
+.name-input {
+    width: 200px;
+    height: 30px;
+}
+
+.phone-input {
+    width: 200px;
+    height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.email-input {
+    width: 200px;
+    height: 30px;
+}
+.contact-us-backgroud{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: -9999;
+}
+/* End contact us  */
