@@ -1,0 +1,76 @@
+/* استدعاء خط من جوجل */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* Start Global Rules */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fd;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End Global Rules */
+
+/* Start Menu Section */
+.menu-title {
+    text-align: center;
+}
+
+.menu-title h1 {
+    font-weight: 700;
+    font-size: 54px;
+    color: #603809;
+}
+
+.menu-title p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #707070;
+}
+
+.category {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.category .category-type {
+    width: 21%;
+    height: 440px;
+    background-color: #FFEED8;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.category .category-type h1 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #603809;
+}
+
+.category .category-type p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.category .category-type a {
+    width: 134px;
+    height: 48px;
+    padding: 8px;
+    background-color: #F9C06A;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+/* End Menu Section */

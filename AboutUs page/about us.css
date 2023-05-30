@@ -1,0 +1,95 @@
+/* استدعاء خط من جوجل */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* Start Global Rules */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fd;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End Global Rules */
+
+/* Start About US Section  */
+.about-us-title {
+    text-align: center;
+}
+
+.about-us-title h1 {
+    font-weight: 700;
+    font-size: 54px;
+    color: #603809;
+}
+
+.about-us-title p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+}
+
+.features {
+    width: 100%;
+}
+
+.features div {
+    float: left;
+    width: 17%;
+    height: 284px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #FFEED8;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.features div h1 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #603809;
+}
+
+.features div p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+}
+.about-us-txt{
+    margin-top: 350px;
+    text-align: center;
+}
+.about-us-txt p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+}
+
+.about-us-txt h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #603809;
+}
+
+.about-us-txt a {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    background-color: #F9C06A;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+/* End About US Section  */
