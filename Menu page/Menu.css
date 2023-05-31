@@ -7,9 +7,7 @@ body {
     background-color: #F9C06A6B;
     font-family: 'Times New Roman', Times, serif;
 }
-ul{
-    list-style: none;
-}
+
 .container {
     padding-left: 100px;
     padding-right: 100px;
@@ -121,5 +119,9 @@ td{
     width: 100%;
     bottom: 0px;
     z-index: -9999;
+}
+ul{
+    width: 300px;
+    margin: 0 auto;
 }
 /* End Menu Section */
