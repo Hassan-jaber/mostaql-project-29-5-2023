@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="contact us.css">
 </head>
 <body>
+     <!-- Start Navbar -->
+     <div class="container">
+        <div class="header">
+            <div class="nav" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../index.html" class="nav__link">الرئيسية</a></li>
+                    <li class="nav__item"><a href="../Menu page/Menu.html" class="nav__link">الاصناف</a></li>
+                    <li class="nav__item"><a href="../AboutUs page/about us.html" class="nav__link">عنا</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">اتصل بنا</a>
+                    </li>
+                    <li class="nav__item"><a href="../sign in page/sign in.html" class="signin-btn">تسجيل الدخول</a>
+                    </li>
+                    <li class="nav__item"><a href="../Sign Up page/sign up.html" class="signup-btn">التسجيل</a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar -->
     <!-- Start contact us -->
     <div class="contact-us-backgroud">
         <img src="../images/coffee.png" width="100%" alt="">
@@ -15,17 +33,17 @@
     <div class="container">
         <div class="contact-us">
             <div class="contact-us-title">
-                <h1>CONTACT US</h1>
+                <h1>اتصل بنا</h1>
             </div>
         </div>
         <form action="">
             <div>
-                <input class="name-input"  id="name" type = "text" name ="name" placeholder="name"/>
-                <input class="phone-input" id="phone" type = "text" name ="phone" placeholder="phone"/>
-                <input class="email-input" id="email" type = "email" name ="email" placeholder="email"/>
+                <input class="name-input"  id="name" type = "text" name ="name" placeholder="الاسم"/>
+                <input class="phone-input" id="phone" type = "text" name ="phone" placeholder="الهاتف"/>
+                <input class="email-input" id="email" type = "email" name ="email" placeholder="البريد الالكتروني"/>
             </div>
-            <textarea name="masseage" id="masseage" cols="85" rows="10" placeholder="masseage"></textarea>
-            <input type="submit" id="send" value="send" onclick="ContactUs_chkForm(); return false;">
+            <textarea name="masseage" id="masseage" cols="85" rows="10" placeholder="الرسالة"></textarea>
+            <input type="submit" id="send" onclick="ContactUs_chkForm(); return false;">
         </form>
     </div>
     <!-- End contact us -->

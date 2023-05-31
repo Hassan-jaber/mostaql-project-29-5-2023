@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="sign in.css">
 </head>
 <body>
+            <!-- Start Navbar -->
+            <div class="container">
+                <div class="header">
+                    <div class="nav" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="../index.html" class="nav__link">الرئيسية</a></li>
+                            <li class="nav__item"><a href="../Menu page/Menu.html" class="nav__link">الاصناف</a></li>
+                            <li class="nav__item"><a href="../AboutUs page/about us.html" class="nav__link">عنا</a></li>
+                            <li class="nav__item"><a href="../Contact Us Page/contact us.html" class="nav__link">اتصل بنا</a></li>
+                            <li class="nav__item"><a href="#" class="signin-btn">تسجيل الدخول</a></li>
+                            <li class="nav__item"><a href="../Sign Up page/sign up.html" class="signup-btn">التسجيل</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End Navbar -->
         <!-- Start Sign in  -->
         <div class="sign-in-backgroud">
             <img src="../images/coffee.png" width="100%" alt="">
@@ -15,12 +31,12 @@
         <div class="container">
             <div class="sign-in">
                 <div class="sign-in-title">
-                    <h1>Sign in</h1>
+                    <h1>تسجيل الدخول</h1>
                 </div>
                 <form action="">
-                    <input class="username-input" id="username" type="text" placeholder="username">
-                    <input class="password-input" id="password" type="password" placeholder="password">
-                    <input class="submit-input" type="submit" value="sign in" onclick="SignIn_chkForm(); return false;">
+                    <input class="username-input" id="username" type="text" placeholder="اسم المستخدم">
+                    <input class="password-input" id="password" type="password" placeholder="كلمة المرور">
+                    <input class="submit-input" type="submit" onclick="SignIn_chkForm(); return false;">
                 </form>
             </div>
         </div>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,71 @@
     <title>Menu</title>
     <link rel="stylesheet" href="Menu.css">
 </head>
+
 <body>
+        <!-- Start Navbar -->
+        <div class="container">
+            <div class="header">
+                <div class="nav" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="../index.html" class="nav__link">الرئيسية</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">الاصناف</a></li>
+                        <li class="nav__item"><a href="../AboutUs page/about us.html" class="nav__link">عنا</a></li>
+                        <li class="nav__item"><a href="../Contact Us Page/contact us.html" class="nav__link">اتصل بنا</a></li>
+                        <li class="nav__item"><a href="../sign in page/sign in.html" class="signin-btn">تسجيل الدخول</a></li>
+                        <li class="nav__item"><a href="../Sign Up page/sign up.html" class="signup-btn">التسجيل</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar -->
     <!-- Start Menu Section -->
+    <div class="Menu-backgroud">
+        <img src="../images/coffee.png" width="100%" alt="">
+    </div>
     <div class="container">
         <div class="menu">
             <div class="menu-title">
-                <h1>Enjoy a new blend of coffee style</h1>
-                <p>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+                <h1>استمتع بمزيج جديد من اصناف القهوة</h1>
+                <p>اكتشف جميع نكهات القهوة معنا. دائمًا هناك فنجان جديد يستحق التجربة</p>
             </div>
-            <div class="category">
-                <div class="category-type">
-                    <img src="../images/category-1.png"  width="100%"alt="">
-                    <h1>Cappuccino</h1>
-                    <p>Coffee 50% | Milk 50%</p>
-                    <h1>$8.50</h1>
-                    <a href="#">Order Now</a>
-                </div>
-                <div class="category-type">
-                    <img src="../images/category-2.png" width="100%" alt="">
-                    <h1>Chai Latte</h1>
-                    <p>Coffee 50% | Milk 50%</p>
-                    <h1>$7.50</h1>
-                    <a href="#">Order Now</a>
-                </div>
-                <div class="category-type">
-                    <img src="../images/category-3.png"  width="100%"alt="">
-                    <h1>Macchiato</h1>
-                    <p>Coffee 50% | Milk 50%</p>
-                    <h1>$9.50</h1>
-                    <a href="#">Order Now</a>
-                </div>
-                <div class="category-type">
-                    <img src="../images/category-4.png"  width="100%" alt="">
-                    <h1>Expresso</h1>
-                    <p>Coffee 50% | Milk 50%</p>
-                    <h1>$10.50</h1>
-                    <a href="#">Order Now</a>
-                </div>
-            </div>
+            <table border="1" class="category">
+                <caption>قائمة اصناف القهوة</caption>
+                <tr>
+                    <td>الصنف</td>
+                    <td>صورة</td>
+                    <td>السعر</td>
+                    <td>فوائد</td>
+                </tr>
+                <tr>
+                    <td>قهوة اللاتيه</td>
+                    <td><img src="../images/category-1.png" alt="" width="50"></td>
+                    <td>7.5 ريال</td>
+                    <td>غنية بالكافيين والكالسيوم والمعادن</td>
+                </tr>
+                <tr>
+                    <td>الكابتشينو</td>
+                    <td><img src="../images/category-2.png" alt=""  width="50"></td>
+                    <td>8.9 ريال</td>
+                    <td>تتميز هذه القهوة بغناها بالكالسيوم والكافيين ومضادات الأكسدة التي يستفيد الجسم</td>
+                </tr>
+                <tr>
+                    <td>الأمريكانو</td>
+                    <td><img src="../images/category-3.png" alt=""  width="50"></td>
+                    <td>10 ريال</td>
+                    <td> تفيد الأعصاب والمعدة والعظام.</td>
+                </tr>
+                <tr>
+                    <td>الإسبريسو</td>
+                    <td><img src="../images/category-4.png" alt=""  width="50"></td>
+                    <td>12 ريال</td>
+                    <td> تمد الجسم بالطاقة اللازمة</td>
+                </tr>
+            </table>
         </div>
     </div>
 
     <!-- End Menu Section -->
 </body>
+
 </html>
