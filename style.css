@@ -1,6 +1,5 @@
 
 /* Start Global Rules */
-
 body {
     margin: 0;
     padding: 0;
@@ -101,5 +100,12 @@ ul {
     color: #1E1E1E;
     background: #F9C06A;
 }
-
+.landing-content{
+    float: right;
+}
+video{
+    float: right;
+    margin-top: 150px;
+    margin-right: 290px;
+}
 /* End Landing Section */
