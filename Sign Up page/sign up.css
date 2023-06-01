@@ -13,13 +13,6 @@ ul {
     padding: 0;
 }
 
-.container {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* End Global Rules */
 
 /* Start Navbar */
@@ -28,26 +21,26 @@ ul {
     padding: 1rem 0;
     height: 60px;
     margin-top: 8px;
+    width: 320px;
 }
 
 .nav__list li {
-    float: right;
-    width: 7%;
+    display: inline;
+    font-size: 14px;
+}
+
+.signup-btn{
+    margin-right: 4px;
+}
+
+.nav__link {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .nav__list li a {
     color: #603809;
-}
-
-.nav__item {
-    margin: 0 8px;
-}
-
-.nav__link {
-    padding: 10px;
-    color: #eeee;
-    font-size: 16px;
-    font-weight: 500;
 }
 
 .signin-btn {
@@ -57,18 +50,15 @@ ul {
 .signup-btn {
     background-color: #F9C06A;
     color: #1E1E1E;
-    padding: 8px;
+    padding: 4px;
 }
-
 /* End Navbar */
 
 
 /* Start Sign up */
-.sigin-up {
-    margin-top: 100px;
-}
 
-.sigin-up h1 {
+
+.sigin-up i {
     font-weight: bold;
     font-size: 30px;
     color: #603809;
@@ -76,8 +66,7 @@ ul {
 }
 
 form {
-    width: 300px;
-    margin: 0 auto;
+    width: 350px;
 }
 
 .email-input,
@@ -91,9 +80,7 @@ form {
     margin-bottom: 8px;
 }
 
-#date {
-    width: 120px;
-}
+
 
 
 .cheTerms {
@@ -121,11 +108,17 @@ form {
 .email-input,
 .username-input,
 .password-input,
-.confirm-input {
-    width: 300px;
+.confirm-input,.phone-input,#date {
+    width: 250px;
+    margin-right: 4px;
+    float: left;
 }
-
-
+.cheTerms{
+    width: 100%;
+}
+form div{
+    float: left;
+}
 .submit-input {
     width: 140px;
     height: 30px;

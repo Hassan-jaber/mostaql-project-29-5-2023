@@ -7,13 +7,11 @@ body {
     background-color: #F9C06A6B;
     font-family: 'Times New Roman', Times, serif;
 }
-
-.container {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-left: auto;
-    margin-right: auto;
+ul{
+    margin: 0;
+    padding: 0;
 }
+
 
 /* End Global Rules */
 /* Start Navbar */
@@ -21,24 +19,26 @@ body {
     padding: 1rem 0;
     height: 60px;
     margin-top: 8px;
+    width: 320px;
 }
 
 .nav__list li {
-    float: right;
-    width: 7%;
+    display: inline;
+    font-size: 14px;
 }
-.nav__list li a{
-    color: #603809;
-}
-.nav__item {
-    margin: 0 8px;
+
+.signup-btn{
+    margin-right: 4px;
 }
 
 .nav__link {
-    padding: 10px;
-    color: #eeee;
+    padding: 2px;
     font-size: 16px;
     font-weight: 500;
+}
+
+.nav__list li a {
+    color: #603809;
 }
 
 .signin-btn {
@@ -48,9 +48,8 @@ body {
 .signup-btn {
     background-color: #F9C06A;
     color: #1E1E1E;
-    padding: 8px;
+    padding: 4px;
 }
-
 /* End Navbar */
 /* Start Menu Section */
 .menu-title {
@@ -73,7 +72,6 @@ body {
 .category {
     margin-top: 50px;
     text-align: center;
-    margin-right:35%;
 }
 caption{
     font-weight: 700;
@@ -114,14 +112,16 @@ td{
     padding-left: 4px;
     padding-right: 4px;
 }
-.Menu-backgroud{
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    z-index: -9999;
-}
-ul{
+
+.benefits-coffee{
     width: 300px;
-    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.benefits-coffee h1{
+    font-weight: 700;
+    font-size: 22px;
+    color: #603809;text-align: center;
+
 }
 /* End Menu Section */

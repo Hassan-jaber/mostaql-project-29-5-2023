@@ -10,55 +10,65 @@
 </head>
 
 <body>
-        <!-- Start Navbar -->
-        <div class="container">
-            <div class="header">
-                <div class="nav" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="../index.html" class="nav__link">الرئيسية</a></li>
-                        <li class="nav__item"><a href="../Menu page/Menu.html" class="nav__link">الاصناف</a></li>
-                        <li class="nav__item"><a href="../AboutUs page/about us.html" class="nav__link">عنا</a></li>
-                        <li class="nav__item"><a href="../Contact Us Page/contact us.html" class="nav__link">اتصل بنا</a></li>
-                        <li class="nav__item"><a href="../sign in page/sign in.html" class="signin-btn">تسجيل الدخول</a></li>
-                        <li class="nav__item"><a href="#" class="signup-btn">التسجيل</a> </li>
-                    </ul>
-                </div>
+    <!-- Start Navbar -->
+    <center>
+        <div class="header">
+            <div class="nav" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../index.html" class="nav__link">الرئيسية</a></li>
+                    <li class="nav__item"><a href="../Menu page/Menu.html" class="nav__link">الاصناف</a></li>
+                    <li class="nav__item"><a href="../AboutUs page/about us.html" class="nav__link">عنا</a></li>
+                    <li class="nav__item"><a href="../Contact Us Page/contact us.html" class="nav__link">اتصل بنا</a>
+                    </li>
+                    <li class="nav__item"><a href="../sign in page/sign in.html" class="signin-btn">تسجيل الدخول</a>
+                    </li>
+                    <li class="nav__item"><a href="#" class="signup-btn">التسجيل</a> </li>
+                </ul>
             </div>
         </div>
-        <!-- End Navbar -->
+    </center>
+
+    <!-- End Navbar -->
     <!-- Start Sign up  -->
     <div class="sign-up-backgroud">
         <img src="../images/coffee.png" width="100%" alt="">
     </div>
-    <div class="container">
-        <div class="sigin-up">
+    <div class="sigin-up">
+        <center>
             <div class="sign-up-title">
-                <h1>التسجيل</h1>
+                <i>التسجيل</i>
             </div>
+        </center>
+
+        <center>
             <form action="">
-                <input class="email-input" id="email" type="email" placeholder="البريد الالكتروني">
-                <input class="username-input" id="username" type="text" placeholder="اسم المستخدم">
-                <input class="phone-input" id="phone" type="number" placeholder="رقم الهاتف">
-                <input type="date" name="date" id="date"> 
-                <input class="password-input" id="password" type="password" placeholder="كلمة المرور">
-                <input class="confirm-input" id="ConfirmPass" type="password" placeholder="تاكيد كلمة المرور">
-                <select id="SelectCountry"  name="SelectCountry">
+                <div>
+                    <p>البريد الالكتروني <input class="email-input" id="email" type="email" placeholder="البريد الالكتروني" onblur="checkEmailValidity()"><divp>
+                </div>
+                <div>اسم المستخدم <input class="username-input" id="username" type="text" placeholder="اسم المستخدم"></div>
+                <div>رقم الهاتف <input class="phone-input" id="phone" type="number" placeholder="رقم الهاتف"></div>
+                <div>تاريخ الميلاد <input type="date" name="date" id="date"></p>
+                <div>كلمة المرور <input class="password-input" id="password" type="password" placeholder="كلمة المرور"></div>
+                <div>تاكيد كلمة المرور <input class="confirm-input" id="ConfirmPass" type="password" placeholder="تاكيد كلمة المرور"></div>
+
+                <select id="SelectCountry" name="SelectCountry">
                     <option selected="selected" value="السعودية">السعودية</option>
                     <option value="الامارات">الامارات</option>
                     <option value="البحرين">البحرين</option>
                 </select>
                 <input class="radio-input" id="male" type="radio" name="gender" value="ذكر" /> ذكر
                 <input class="radio-input" id="female" type="radio" name="gender" value="انثى" /> انثى
-                <div class="cheTerms">
-                    <input id="cheTerms" name="terms" type="checkbox"  value="agree" /> 
+                <p class="cheTerms">
+                    <input id="cheTerms" name="terms" type="checkbox" value="agree" onclick="promptFun();" />
                     <span>اوافق على شروط الاستخدام</span>
-                </div>
+                </p>
                 <div class="btns">
-                    <input  id="reset" type = "reset" name = "reset" />
+                    <input id="reset" type="reset" name="reset" onclick="confirmFun();" />
                     <input class="submit-input" id="FormSubmit" type="submit" onclick="SignUp_chkForm(); return false;">
                 </div>
             </form>
-        </div>
+        </center>
+
     </div>
     <!-- End Sign up  -->
     <script>
