@@ -29,7 +29,7 @@ ul {
     font-size: 14px;
 }
 
-.signup-btn{
+.signup-btn {
     margin-right: 4px;
 }
 
@@ -52,6 +52,7 @@ ul {
     color: #1E1E1E;
     padding: 4px;
 }
+
 /* End Navbar */
 
 
@@ -81,7 +82,9 @@ form {
 }
 
 
-
+#SelectCountry {
+    margin-right: 50px;
+}
 
 .cheTerms {
     display: inline-block;
@@ -108,17 +111,22 @@ form {
 .email-input,
 .username-input,
 .password-input,
-.confirm-input,.phone-input,#date {
-    width: 250px;
+.confirm-input,
+.phone-input,
+#date {
+    width: 220px;
     margin-right: 4px;
     float: left;
 }
-.cheTerms{
+
+.cheTerms {
     width: 100%;
 }
-form div{
+
+form div {
     float: left;
 }
+
 .submit-input {
     width: 140px;
     height: 30px;
